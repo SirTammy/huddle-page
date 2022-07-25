@@ -1,0 +1,19 @@
+#grow{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px hsl(208, 11%, 55%);
+}
+
+@media screen and (max-width: 600px) {
+    #grow{
+        margin-top: 0px;
+    }
+    
+    .build{
+        font-size: 30px;
+    }
+}
