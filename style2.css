@@ -23,7 +23,7 @@
     margin-top: 130px;
     margin-bottom: -150px ;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px hsl(208, 25%, 77%);
+    box-shadow: 0px 0px 3px hsl(208, 25%, 77%);
     background-color: white;
 }
 .comBtn{
