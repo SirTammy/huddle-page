@@ -15,9 +15,44 @@
     box-shadow: 0px 0px 10px hsl(208, 11%, 55%);
 }
 
+#community{
+    position: relative;
+    z-index: 1;
+    max-width: 45%;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: -150px ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px hsl(208, 25%, 77%);
+    background-color: white;
+}
+.comBtn{
+    background-color:  hsl(322, 100%, 66%);
+}
+.comCont{
+    padding-bottom: 70px;
+}
+.footerLogo{
+    width: 200px;
+    color: white;
+}
+#footer{
+    background-color: hsl(189, 13%, 30%);
+    color: white;
+    padding-top: 150px;
+    /* z-index: -1; */
+    
+}
+
+
+
 @media screen and (max-width: 600px) {
     #grow{
         margin-top: 0px;
+    }
+
+    #grow, #conversations, #users, #community{
+        max-width: 85%;
     }
     
     .build{
@@ -27,5 +62,13 @@
 
     .down{
         margin-top: 50px;
+    }
+
+   #community h2{
+        font-size: 18px;
+    }
+
+    .footerIcons{
+        justify-content: center;
     }
 }
